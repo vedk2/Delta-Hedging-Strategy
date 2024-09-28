@@ -36,7 +36,7 @@ Options trading involves significant risks due to changes in market conditions. 
 4. Run the Jupyter Notebook `DeltaHedging (1).ipynb` to execute the strategy.
 
 ## Results
-The backtesting results demonstrate that the dynamic hedging strategy significantly reduces portfolio risk compared to an unhedged position. Various metrics such as Sharpe ratio, maximum drawdown, and volatility are used to assess performance.
+This project is currently in the development and testing phase, but shows that portfolio value is increasing over time. The results presented here are for educational purposes only and should not be used as the basis for real-world trading. Overall, The backtesting results show promise in reducing portfolio risk compared to an unhedged position, but the strategy is still being refined and has not been validated for live trading environments.
 
 ## Future Enhancements
 - **Advanced Machine Learning Models:** Incorporate reinforcement learning for more sophisticated hedging strategies.
