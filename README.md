@@ -3,7 +3,7 @@
 ## Overview
 This project implements a dynamic delta hedging strategy using real-time options data from Yahoo Finance to manage portfolio risk. The strategy involves calculating option deltas using the Black-Scholes model, dynamically adjusting hedge positions, and evaluating performance through backtesting.
 
-**Note:** The Jupyter Notebook (`DeltaHedging (1).ipynb`) contains detailed explanations for each part of the strategy, including code, methodology, and visualizations.
+**Note:** The Jupyter Notebook (`DeltaHedgingProject.ipynb`) contains detailed explanations for each part of the strategy, including code, methodology, and visualizations.
 
 ## Motivation
 Options trading involves significant risks due to changes in market conditions. This project aims to develop a systematic approach for minimizing delta risk, ensuring robust risk management for an options portfolio.
