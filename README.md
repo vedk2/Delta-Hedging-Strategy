@@ -22,20 +22,37 @@ Options trading involves significant risks due to changes in market conditions. 
 4. **Backtesting:** Analyzes the performance of the strategy over historical data to evaluate its effectiveness.
 5. **Optimization with Machine Learning:** Applies machine learning models to predict optimal times for re-hedging.
 
-## Usage
-1. Clone the repository:
+
+## How to Use the Delta Hedging Strategy
+
+1. **Clone the Repository**:
     ```bash
     git clone https://github.com/vedk2/Delta-Hedging-Strategy.git
-    ```
-2. Navigate to the project directory:
-    ```bash
     cd Delta-Hedging-Strategy
     ```
-3. Install the required libraries:
+
+2. **Install Required Libraries**:
+    Install the necessary Python packages using:
     ```bash
     pip install -r requirements.txt
     ```
-4. Run the Jupyter Notebook `DeltaHedging (1).ipynb` to execute the strategy.
+
+3. **Run the Jupyter Notebook**:
+    Open and run the Jupyter Notebook (`DeltaHedging (1).ipynb`). Modify the parameters in the designated cell, such as `ticker`, `strike_price`, etc., to apply the strategy to any stock of your choice.
+
+4. **Interactive Parameters**:
+    - **Ticker Symbol**: Choose any stock ticker (e.g., `AAPL`).
+    - **Strike Price**: Set your desired strike price for the option.
+    - **Time to Expiration**: Set the time to expiration in days.
+    - **Risk-Free Rate**: Default is 0.05, modify as needed.
+    - **Volatility**: Estimate or use historical volatility for the stock.
+
+5. **Visualize Results**:
+    The notebook will generate visualizations of the hedging strategy's performance, such as delta vs. stock price, hedged vs. unhedged portfolio values, and risk metrics.
+
+6. **Disclaimer**:
+    This strategy is for educational purposes only and should not be used for actual trading.
+
 
 ## Results
 This project is currently in the development and testing phase, but shows that portfolio value is increasing over time. The results presented here are for educational purposes only and should not be used as the basis for real-world trading. Overall, The backtesting results show promise in reducing portfolio risk compared to an unhedged position, but the strategy is still being refined and has not been validated for live trading environments.
