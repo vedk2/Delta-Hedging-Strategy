@@ -66,6 +66,5 @@ This project is currently in the development and testing phase, but shows that p
 
 ## Contributors
 - **Ved Kulkarni**
+To connect, email ved.kulkarni628@gmail.com.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
