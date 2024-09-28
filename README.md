@@ -31,11 +31,14 @@ Options trading involves significant risks due to changes in market conditions. 
     cd Delta-Hedging-Strategy
     ```
 
-2. **Install Required Libraries**:
-    Install the necessary Python packages using:
-    ```bash
-    pip install -r requirements.txt
-    ```
+
+
+2. ## Install Required Libraries
+Install the necessary Python libraries using the following command:
+
+```bash
+pip install numpy pandas yfinance scipy matplotlib
+...
 
 3. **Run the Jupyter Notebook**:
     Open and run the Jupyter Notebook (`DeltaHedging (1).ipynb`). Modify the parameters in the designated cell, such as `ticker`, `strike_price`, etc., to apply the strategy to any stock of your choice. You can directly use the `delta_hedging_strategy.py` file to implement the delta hedging strategy with any stock symbol of your choice.
