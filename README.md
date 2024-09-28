@@ -18,3 +18,25 @@ Dynamic Rebalancing: Uses the calculated delta to determine the number of shares
 Backtesting: Analyzes the performance of the strategy over historical data to evaluate its effectiveness.
 Optimization with Machine Learning: Applies machine learning models to predict optimal times for re-hedging.
 Usage
+Clone the repository:
+bash
+Copy code
+git clone https://github.com/vedk2/Delta-Hedging-Strategy.git
+Navigate to the project directory:
+bash
+Copy code
+cd Delta-Hedging-Strategy
+Install the required libraries:
+bash
+Copy code
+pip install -r requirements.txt
+Run the Jupyter Notebook DeltaHedging (1).ipynb to execute the strategy.
+Results
+The backtesting results demonstrate that the dynamic hedging strategy significantly reduces portfolio risk compared to an unhedged position. Various metrics such as Sharpe ratio, maximum drawdown, and volatility are used to assess performance.
+
+Future Enhancements
+Advanced Machine Learning Models: Incorporate reinforcement learning for more sophisticated hedging strategies.
+Multi-Asset Hedging: Extend the strategy to support multi-asset portfolios.
+Live Deployment: Develop an automated system for executing the strategy in a live trading environment.
+Contributors
+Ved Kulkarni
