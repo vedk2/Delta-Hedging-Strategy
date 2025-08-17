@@ -1,5 +1,9 @@
 # Delta Hedging Strategy  
 
+[![Launch App](https://img.shields.io/badge/Streamlit-Live%20App-brightgreen?logo=streamlit)](https://delta-hedging-strategy-vedk2.streamlit.app/)  
+
+---
+
 ## 📌 Overview  
 This project implements a **dynamic delta hedging strategy** using real-time options data from Yahoo Finance to manage portfolio risk. The strategy calculates option deltas via the Black-Scholes model, dynamically adjusts hedge positions, and evaluates performance through backtesting.  
 
