@@ -4,19 +4,19 @@
 
 ---
 
-## 📌 Overview  
+## Overview  
 This project implements a **dynamic delta hedging strategy** using real-time options data from Yahoo Finance to manage portfolio risk. The strategy calculates option deltas via the Black-Scholes model, dynamically adjusts hedge positions, and evaluates performance through backtesting.  
 
-👉 **Try it live here:** [Delta Hedging Streamlit App](https://delta-hedging-strategy-vedk2.streamlit.app/)  
+**Try it live here:** [Delta Hedging Streamlit App](https://delta-hedging-strategy-vedk2.streamlit.app/)  
 
 ---
 
-## 🎯 Motivation  
+## Motivation  
 Options trading carries significant risks due to market volatility. This project provides a systematic framework for minimizing **delta risk**, enabling more robust **risk management** for options portfolios.  
 
 ---
 
-## ✨ Features  
+## Features  
 - **Interactive Web App** – Run the strategy directly in your browser via Streamlit.  
 - **Real-Time Data Integration** – Fetches live stock & options data from Yahoo Finance.  
 - **Delta Calculation** – Implements the Black-Scholes model to compute option delta.  
@@ -26,11 +26,11 @@ Options trading carries significant risks due to market volatility. This project
 
 ---
 
-## 🚀 How to Use  
+## How to Use  
 
 ### Option 1 – Use the Web App (Recommended)  
 Simply open the app in your browser:  
-👉 [Delta Hedging Streamlit App](https://delta-hedging-strategy-vedk2.streamlit.app/)  
+[Delta Hedging Streamlit App](https://delta-hedging-strategy-vedk2.streamlit.app/)  
 
 ### Option 2 – Run Locally  
 1. **Clone the repository**:  
@@ -45,7 +45,7 @@ Simply open the app in your browser:
 ## 📊 Results
 Backtesting shows that the hedged portfolio reduces exposure to market movements compared to an unhedged position. While results are promising, the strategy is still under development and not validated for live trading.
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 1. Reinforcement Learning for adaptive hedging strategies.
 2. Multi-Asset Hedging for portfolios with multiple underlying securities.
