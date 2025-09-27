@@ -8,12 +8,6 @@ CONTRACT_MULTIPLIER = 100  # shares per option contract
 
 # ---------- Helpers ----------
 def _ensure_close_column(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Guarantee df has a 'Close' column:
-    - Flatten MultiIndex columns.
-    - If only 'Adj Close' exists, copy to 'Close'.
-    - If neither exists but one column is present, treat it as Close.
-    """
     out = df.copy()
 
     if isinstance(out.columns, pd.MultiIndex):
